@@ -1,5 +1,3 @@
-import * as THREE from 'three';
-
 export default class Renderer {
   constructor() {
     this.$webgl = document.querySelector('[data-webgl]');
